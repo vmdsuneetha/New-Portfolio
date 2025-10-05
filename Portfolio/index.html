@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinjamuri Mahalakshmi Devi Suneetha | Portfolio</title>
+    <meta name="description" content="Portfolio of Vinjamuri Mahalakshmi Devi Suneetha - Computer Science Graduate">
+    <meta name="keywords" content="web developer, portfolio, computer science, software developer">
+    <meta name="author" content="Vinjamuri Mahalakshmi Devi Suneetha">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Vinjamuri Mahalakshmi Devi Suneetha | Portfolio">
+    <meta property="og:description" content="Computer Science Graduate with strong foundation in programming, databases, and web technologies">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <span class="theme-ball"></span>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Suneetha</span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certifications" class="nav-link">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-data">
+                        <h1 class="home-title">
+                            Hi, I'm <span class="home-title-color">Suneetha</span>
+                        </h1>
+                        <h2 class="home-subtitle">
+                            <span class="typewriter-text"></span>
+                        </h2>
+                        <p class="home-description">
+                            Computer Science Graduate passionate about creating innovative solutions and beautiful web experiences.
+                        </p>
+                        
+                        <div class="home-buttons">
+                            <a href="#projects" class="button button--flex">
+                                View My Work <i class="fas fa-arrow-right button-icon"></i>
+                            </a>
+                            <a href="#contact" class="button button--flex button--ghost">
+                                Contact Me <i class="fas fa-envelope button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="home-img">
+                        <div class="home-img-container">
+                            <div class="home-img-wrapper">
+                                <img src="assets/images/profile-placeholder.jpg" alt="Profile" class="home-profile-img">
+                                <div class="home-img-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button--flex">
+                        <i class="fas fa-mouse home-scroll-mouse"></i>
+                        <span class="home-scroll-name">Scroll Down</span>
+                        <i class="fas fa-arrow-down home-scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Background Animation -->
+            <div class="home-background">
+                <canvas id="particles-canvas"></canvas>
+                <div class="home-background-overlay"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <span class="section-subtitle">My introduction</span>
+                
+                <div class="about-container grid">
+                    <div class="about-img">
+                        <div class="about-img-container">
+                            <img src="assets/images/profile-placeholder.jpg" alt="About" class="about-profile-img">
+                            <div class="about-img-ring"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-data">
+                        <p class="about-description">
+                            Motivated Computer Science graduate with strong foundation in programming, databases, and web technologies. Seeking an entry-level software development role to apply problem-solving skills and grow with the organization.
+                        </p>
+                        
+                        <div class="about-info">
+                            <div class="about-info-item">
+                                <span class="about-info-title">05+</span>
+                                <span class="about-info-name">Projects <br> Completed</span>
+                            </div>
+                            
+                            <div class="about-info-item">
+                                <span class="about-info-title">07+</span>
+                                <span class="about-info-name">Certifications <br> Completed</span>
+                            </div>
+                            
+                            <div class="about-info-item">
+                                <span class="about-info-title">01+</span>
+                                <span class="about-info-name">Years of <br> Experience</span>
+                            </div>
+                        </div>
+                        
+                        <div class="about-buttons">
+                            <a href="assets/images/resume-placeholder.pdf" download class="button button--flex">
+                                Download CV <i class="fas fa-download button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <span class="section-subtitle">My technical level</span>
+                
+                <div class="skills-container grid">
+                    <!-- Programming Skills -->
+                    <div class="skills-content">
+                        <h3 class="skills-title">Programming</h3>
+                        
+                        <div class="skills-box">
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <i class="fab fa-python skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">Python</h3>
+                                        <span class="skills-level">Advanced</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fab fa-java skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">Java</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fas fa-code skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">C</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Development Skills -->
+                    <div class="skills-content">
+                        <h3 class="skills-title">Web Development</h3>
+                        
+                        <div class="skills-box">
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <i class="fab fa-html5 skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">HTML</h3>
+                                        <span class="skills-level">Advanced</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fab fa-css3-alt skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">CSS</h3>
+                                        <span class="skills-level">Advanced</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fab fa-js-square skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">JavaScript</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fab fa-react skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">React</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fab fa-angular skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">Angular</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fab fa-bootstrap skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">Bootstrap</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Database Skills -->
+                    <div class="skills-content">
+                        <h3 class="skills-title">Databases & Tools</h3>
+                        
+                        <div class="skills-box">
+                            <div class="skills-group">
+                                <div class="skills-data">
+                                    <i class="fas fa-database skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">MySQL</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fas fa-database skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">MongoDB</h3>
+                                        <span class="skills-level">Basic</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fas fa-database skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">Oracle</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-data">
+                                    <i class="fab fa-github skills-icon"></i>
+                                    <div>
+                                        <h3 class="skills-name">GitHub</h3>
+                                        <span class="skills-level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill Bars -->
+                <div class="skills-bars">
+                    <h3 class="skills-bars-title">Skill Proficiency</h3>
+                    
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-width="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-width="90"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-width="75"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-width="70"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-width="65"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <span class="section-subtitle">My academic journey</span>
+                
+                <div class="education-container">
+                    <div class="education-timeline">
+                        <!-- Timeline Item 1 -->
+                        <div class="education-item">
+                            <div class="education-date">
+                                <span class="education-year">2022 - 2025</span>
+                            </div>
+                            <div class="education-content">
+                                <h3 class="education-title">B.Sc Computer Science</h3>
+                                <span class="education-subtitle">S.K.B.R. Degree College</span>
+                                <p class="education-description">
+                                    CGPA: 8.71/10.0
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Item 2 -->
+                        <div class="education-item">
+                            <div class="education-date">
+                                <span class="education-year">2020 - 2022</span>
+                            </div>
+                            <div class="education-content">
+                                <h3 class="education-title">M.P.C (Mathematics, Physics, Chemistry)</h3>
+                                <span class="education-subtitle">Sri Ravi Junior College</span>
+                                <p class="education-description">
+                                    Percentage: 85.7%
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Item 3 -->
+                        <div class="education-item">
+                            <div class="education-date">
+                                <span class="education-year">2020</span>
+                            </div>
+                            <div class="education-content">
+                                <h3 class="education-title">SSC (10th Grade)</h3>
+                                <span class="education-subtitle">Z.P.P. High School</span>
+                                <p class="education-description">
+                                    Percentage: 91.6%
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <span class="section-subtitle">My professional certifications</span>
+                
+                <div class="certifications-filters">
+                    <span class="certifications-filter active" data-filter="all">All</span>
+                    <span class="certifications-filter" data-filter="web">Web Development</span>
+                    <span class="certifications-filter" data-filter="cloud">Cloud</span>
+                    <span class="certifications-filter" data-filter="data">Data Science</span>
+                    <span class="certifications-filter" data-filter="programming">Programming</span>
+                </div>
+                
+                <div class="certifications-container grid">
+                    <!-- Certification 1 -->
+                    <div class="certification-card" data-category="cloud">
+                        <div class="certification-content">
+                            <div class="certification-front">
+                                <div class="certification-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <h3 class="certification-title">AWS Solutions Architecture</h3>
+                                <p class="certification-issuer">Forage</p>
+                                <span class="certification-date">May 2025</span>
+                            </div>
+                            <div class="certification-back">
+                                <h3 class="certification-title">AWS Solutions Architecture</h3>
+                                <p class="certification-description">
+                                    Job simulation covering AWS services, architecture design, and best practices for cloud solutions.
+                                </p>
+                                <a href="#" class="certification-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certification 2 -->
+                    <div class="certification-card" data-category="programming">
+                        <div class="certification-content">
+                            <div class="certification-front">
+                                <div class="certification-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <h3 class="certification-title">TCS iON Career Edge</h3>
+                                <p class="certification-issuer">TCS iON</p>
+                                <span class="certification-date">Jun 2025</span>
+                            </div>
+                            <div class="certification-back">
+                                <h3 class="certification-title">TCS iON Career Edge</h3>
+                                <p class="certification-description">
+                                    Young Professional program covering communication skills, career guidance, and professional development.
+                                </p>
+                                <a href="#" class="certification-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certification 3 -->
+                    <div class="certification-card" data-category="web">
+                        <div class="certification-content">
+                            <div class="certification-front">
+                                <div class="certification-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <h3 class="certification-title">Web Development Internship</h3>
+                                <p class="certification-issuer">Micro IT</p>
+                                <span class="certification-date">1 Month</span>
+                            </div>
+                            <div class="certification-back">
+                                <h3 class="certification-title">Web Development Internship</h3>
+                                <p class="certification-description">
+                                    Hands-on experience in front-end development, responsive design, and web technologies.
+                                </p>
+                                <a href="#" class="certification-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certification 4 -->
+                    <div class="certification-card" data-category="data">
+                        <div class="certification-content">
+                            <div class="certification-front">
+                                <div class="certification-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h3 class="certification-title">Cyber Security</h3>
+                                <p class="certification-issuer">HP LIFE</p>
+                                <span class="certification-date">Online Course</span>
+                            </div>
+                            <div class="certification-back">
+                                <h3 class="certification-title">Cyber Security</h3>
+                                <p class="certification-description">
+                                    Fundamentals of cybersecurity, threat protection, and security best practices.
+                                </p>
+                                <a href="#" class="certification-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certification 5 -->
+                    <div class="certification-card" data-category="data">
+                        <div class="certification-content">
+                            <div class="certification-front">
+                                <div class="certification-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h3 class="certification-title">Data Science using Python</h3>
+                                <p class="certification-issuer">AICTE (CSC India)</p>
+                                <span class="certification-date">Internship</span>
+                            </div>
+                            <div class="certification-back">
+                                <h3 class="certification-title">Data Science using Python</h3>
+                                <p class="certification-description">
+                                    Data analysis, visualization, and machine learning concepts using Python libraries.
+                                </p>
+                                <a href="#" class="certification-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certification 6 -->
+                    <div class="certification-card" data-category="programming">
+                        <div class="certification-content">
+                            <div class="certification-front">
+                                <div class="certification-icon">
+                                    <i class="fab fa-java"></i>
+                                </div>
+                                <h3 class="certification-title">Java Programming</h3>
+                                <p class="certification-issuer">SkillUp</p>
+                                <span class="certification-date">Course Completion</span>
+                            </div>
+                            <div class="certification-back">
+                                <h3 class="certification-title">Java Programming</h3>
+                                <p class="certification-description">
+                                    Comprehensive Java programming course covering OOP concepts, data structures, and algorithms.
+                                </p>
+                                <a href="#" class="certification-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Certification 7 -->
+                    <div class="certification-card" data-category="web">
+                        <div class="certification-content">
+                            <div class="certification-front">
+                                <div class="certification-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3 class="certification-title">Web Development</h3>
+                                <p class="certification-issuer">Embrizon Tech</p>
+                                <span class="certification-date">Internship</span>
+                            </div>
+                            <div class="certification-back">
+                                <h3 class="certification-title">Web Development</h3>
+                                <p class="certification-description">
+                                    Internship focusing on modern web development practices, frameworks, and tools.
+                                </p>
+                                <a href="#" class="certification-link">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <span class="section-subtitle">My recent work</span>
+                
+                <div class="projects-container grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/project1.jpg" alt="Employee Information System">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project-data">
+                            <h3 class="project-title">Employee Information System</h3>
+                            <p class="project-description">
+                                Python application for managing employee data using pickling and unpickling for data persistence.
+                            </p>
+                            
+                            <div class="project-tech">
+                                <span class="project-tech-item">Python</span>
+                                <span class="project-tech-item">Pickle</span>
+                                <span class="project-tech-item">File I/O</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="assets/images/project2.jpg" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="project-data">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-description">
+                                Responsive portfolio website built with HTML, CSS, and Bootstrap, deployed online.
+                            </p>
+                            
+                            <div class="project-tech">
+                                <span class="project-tech-item">HTML</span>
+                                <span class="project-tech-item">CSS</span>
+                                <span class="project-tech-item">Bootstrap</span>
+                                <span class="project-tech-item">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <span class="section-subtitle">Get in touch</span>
+                
+                <div class="contact-container grid">
+                    <div class="contact-info">
+                        <h3 class="contact-title">Talk to me</h3>
+                        
+                        <div class="contact-content">
+                            <div class="contact-item">
+                                <i class="fas fa-phone contact-icon"></i>
+                                <div>
+                                    <h3 class="contact-item-title">Call Me</h3>
+                                    <span class="contact-item-data">7207237638</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-envelope contact-icon"></i>
+                                <div>
+                                    <h3 class="contact-item-title">Email</h3>
+                                    <span class="contact-item-data">suneethavinjamuri00@gmail.com</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt contact-icon"></i>
+                                <div>
+                                    <h3 class="contact-item-title">Location</h3>
+                                    <span class="contact-item-data">Amalapuram, India</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin contact-icon"></i>
+                                <div>
+                                    <h3 class="contact-item-title">LinkedIn</h3>
+                                    <a href="https://www.linkedin.com/in/mahalakshmi-devi-suneetha-vinjamuri-6a5b9631b" class="contact-item-data">Connect with me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3 class="contact-title">Write me your project</h3>
+                        
+                        <form action="" class="contact-form-content" id="contact-form">
+                            <div class="contact-form-div">
+                                <label class="contact-form-tag">Name</label>
+                                <input type="text" name="name" class="contact-form-input" placeholder="Enter your name" required>
+                            </div>
+                            
+                            <div class="contact-form-div">
+                                <label class="contact-form-tag">Email</label>
+                                <input type="email" name="email" class="contact-form-input" placeholder="Enter your email" required>
+                            </div>
+                            
+                            <div class="contact-form-div">
+                                <label class="contact-form-tag">Subject</label>
+                                <input type="text" name="subject" class="contact-form-input" placeholder="Enter your subject" required>
+                            </div>
+                            
+                            <div class="contact-form-div contact-form-area">
+                                <label class="contact-form-tag">Message</label>
+                                <textarea name="message" cols="30" rows="10" class="contact-form-input" placeholder="Write your message" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="button button--flex">
+                                Send Message
+                                <i class="fas fa-paper-plane button-icon"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container grid">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Suneetha</a>
+                <p class="footer-description">
+                    Computer Science Graduate passionate about creating innovative solutions.
+                </p>
+            </div>
+            
+            <div class="footer-content">
+                <h3 class="footer-title">Links</h3>
+                
+                <ul class="footer-links">
+                    <li><a href="#about" class="footer-link">About</a></li>
+                    <li><a href="#skills" class="footer-link">Skills</a></li>
+                    <li><a href="#projects" class="footer-link">Projects</a></li>
+                    <li><a href="#contact" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-content">
+                <h3 class="footer-title">Follow Me</h3>
+                
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/mahalakshmi-devi-suneetha-vinjamuri-6a5b9631b" class="footer-social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/yourusername" class="footer-social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:suneethavinjamuri00@gmail.com" class="footer-social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-copy">
+            <p class="footer-copy-text">
+                &copy; 2025 Vinjamuri Mahalakshmi Devi Suneetha. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/particles.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/form-handler.js"></script>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vinjamuri Mahalakshmi Devi Suneetha",
+      "email": "suneethavinjamuri00@gmail.com",
+      "telephone": "7207237638",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amalapuram",
+        "addressCountry": "India"
+      },
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "S.K.B.R. Degree College"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Sri Ravi Junior College"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Z.P.P. High School"
+        }
+      ],
+      "jobTitle": "Computer Science Graduate",
+      "url": "https://yourportfolio.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/mahalakshmi-devi-suneetha-vinjamuri-6a5b9631b"
+      ]
+    }
+    </script>
+</body>
+</html>

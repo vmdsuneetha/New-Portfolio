@@ -1,0 +1,148 @@
+/* Additional Responsive Styles for Specific Breakpoints */
+
+/* Small devices (phones, 375px and up) */
+@media screen and (min-width: 375px) {
+    .home-img-container {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .about-img-container {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .home-img-container {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .about-img-container {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .skills-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media screen and (min-width: 1024px) {
+    .home-img-container {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .certifications-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Extra large devices (large desktops, 1440px and up) */
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .home-content {
+        gap: 5rem;
+    }
+    
+    .home-img-container {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+/* Mobile Navigation Improvements */
+@media screen and (max-width: 1023px) {
+    .nav-menu {
+        width: 80%;
+    }
+    
+    .nav-list {
+        row-gap: 2rem;
+    }
+}
+
+/* Education Timeline Responsive */
+@media screen and (max-width: 767px) {
+    .education-timeline::before {
+        left: 20px;
+    }
+    
+    .education-item {
+        width: 100%;
+        padding-left: 3rem;
+    }
+    
+    .education-item:nth-child(odd),
+    .education-item:nth-child(even) {
+        left: 0;
+    }
+    
+    .education-item:nth-child(odd) .education-date,
+    .education-item:nth-child(even) .education-date {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Particle Effect Optimization for Mobile */
+@media screen and (max-width: 768px) {
+    #particles-canvas {
+        /* Reduce particle count for mobile performance */
+        transform: scale(0.8);
+    }
+}
+
+/* High DPI Screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Add high-resolution optimizations if needed */
+}
+
+/* Print Styles */
+@media print {
+    .theme-toggle,
+    .nav-toggle,
+    .home-scroll,
+    .scrollup,
+    .footer {
+        display: none !important;
+    }
+    
+    .section {
+        padding: 2rem 0 !important;
+        page-break-inside: avoid;
+    }
+    
+    .home {
+        min-height: auto;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+        color: #000;
+        background: #fff;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    h1, h2, h3 {
+        color: #000;
+    }
+}
